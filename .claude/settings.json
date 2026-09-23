@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "additionalDirectories": ["/scratch/users/ag4680/forecasts/aifs"],
+    "deny": [
+      "Edit(/scratch/users/ag4680/forecasts/aifs/**)",
+      "Write(/scratch/users/ag4680/forecasts/aifs/**)"
+    ]
+  }
+}
