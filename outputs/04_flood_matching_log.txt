@@ -1,0 +1,107 @@
+locations.csv: 529 rows, 529 unique names
+with voltage data, excluding Agriculture: 517 rows
+26 GFD footprints
+band names: ['flooded', 'duration', 'clear_views', 'clear_perc', 'jrc_perm_water']; crs GEOGCS["WGS 84",DATUM["World Geodetic System 1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST]]; res (0.002245788210298804, 0.002245788210298804)
+  DFO_4215_From_20141220_to_20150101.tif: 0 stations in bbox, 0 with flooding within 30 km
+  DFO_4239_From_20150320_to_20150331.tif: 34 stations in bbox, 6 with flooding within 30 km
+  DFO_4251_From_20150517_to_20150521.tif: 57 stations in bbox, 33 with flooding within 30 km
+  DFO_4259_From_20150602_to_20150629.tif: 94 stations in bbox, 11 with flooding within 30 km
+  DFO_4265_From_20150624_to_20150629.tif: 11 stations in bbox, 0 with flooding within 30 km
+  DFO_4272_From_20150715_to_20150819.tif: 34 stations in bbox, 1 with flooding within 30 km
+  DFO_4282_From_20150715_to_20150819.tif: 517 stations in bbox, 295 with flooding within 30 km
+  DFO_4283_From_20150715_to_20150819.tif: 11 stations in bbox, 0 with flooding within 30 km
+  DFO_4288_From_20150813_to_20150911.tif: 94 stations in bbox, 11 with flooding within 30 km
+  DFO_4309_From_20151110_to_20151204.tif: 57 stations in bbox, 51 with flooding within 30 km
+  DFO_4339_From_20160312_to_20160413.tif: 34 stations in bbox, 0 with flooding within 30 km
+  DFO_4355_From_20160420_to_20160501.tif: 110 stations in bbox, 11 with flooding within 30 km
+  DFO_4365_From_20160601_to_20160816.tif: 11 stations in bbox, 0 with flooding within 30 km
+  DFO_4378_From_20160707_to_20160803.tif: 506 stations in bbox, 201 with flooding within 30 km
+  DFO_4382_From_20160725_to_20160826.tif: 412 stations in bbox, 257 with flooding within 30 km
+  DFO_4459_From_20170330_to_20170418.tif: 15 stations in bbox, 11 with flooding within 30 km
+  DFO_4483_From_20170602_to_20170703.tif: 110 stations in bbox, 11 with flooding within 30 km
+  DFO_4499_From_20170727_to_20170810.tif: 40 stations in bbox, 16 with flooding within 30 km
+  DFO_4507_From_20170810_to_20170826.tif: 342 stations in bbox, 189 with flooding within 30 km
+  DFO_4508_From_20170810_to_20170826.tif: 412 stations in bbox, 200 with flooding within 30 km
+  DFO_4632_From_20180615_to_20180620.tif: 11 stations in bbox, 0 with flooding within 30 km
+  DFO_4640_From_20180625_to_20180711.tif: 34 stations in bbox, 0 with flooding within 30 km
+  DFO_4645_From_20180703_to_20180711.tif: 34 stations in bbox, 0 with flooding within 30 km
+  DFO_4665_From_20180802_to_20180810.tif: 94 stations in bbox, 11 with flooding within 30 km
+  DFO_4666_From_20180715_to_20180810.tif: 11 stations in bbox, 0 with flooding within 30 km
+  DFO_4673_From_20180901_to_20180907.tif: 298 stations in bbox, 233 with flooding within 30 km
+
+Rules: masked flooding >= 1.0 km2 within 20 km; recurrent = flooded in >= 3 events; strict completeness over Began-3d..Ended+3d
+
+Per-event counts:
+ event_id    country      began      ended                          main_cause  severity  n_affected  n_affected_in_coverage  n_keep_strict  n_keep_lenient  n_keep_raw_rule  n_keep_needs_geocode_fix  used
+     4215  Sri Lanka 2014-12-20 2015-01-01                      Monsoonal Rain       1.5           0                       0              0               0                0                         0 False
+     4239      India 2015-03-20 2015-03-31                          Heavy Rain       1.5           0                       0              0               0                0                         0 False
+     4251      India 2015-05-17 2015-05-21                     Torrential Rain       1.0          28                       2              1               1                1                         0  True
+     4259      India 2015-06-02 2015-06-29                      Monsoonal Rain       1.5          11                       0              0               0                0                         0 False
+     4265      India 2015-06-24 2015-06-29                      Monsoonal Rain       1.5           0                       0              0               0                0                         0 False
+     4272   Pakistan 2015-07-15 2015-08-19                      Monsoonal Rain       1.5           0                       0              0               0                0                         0 False
+     4282      India 2015-07-15 2015-08-19 Monsoonal Rain and Tropical Storm K       2.0          98                       5              2               3                7                         1  True
+     4283    Myanmar 2015-07-15 2015-08-19                      Monsoonal Rain       2.0           0                       0              0               0                0                         0 False
+     4288      India 2015-08-13 2015-09-11                      Monsoonal Rain       1.0          11                       0              0               0                0                         0 False
+     4309      India 2015-11-10 2015-12-04                Tropical Storm Rovan       2.0          44                      15              5               8                8                         1  True
+     4339   Pakistan 2016-03-12 2016-04-13                          Heavy Rain       1.5           0                       0              0               0                0                         0 False
+     4355      India 2016-04-20 2016-05-01                          Heavy Rain       1.5           0                       0              0               0                0                         0 False
+     4365    Myanmar 2016-06-01 2016-08-16                      Monsoonal Rain       2.0           0                       0              0               0                0                         0 False
+     4378      India 2016-07-07 2016-08-03                      Monsoonal Rain       1.5          61                      18              8              10               27                         4  True
+     4382 Bangladesh 2016-07-25 2016-08-26                      Monsoonal Rain       1.5         116                      32             18              22               27                         4  True
+     4459 Bangladesh 2017-03-30 2017-04-18                          Heavy Rain       1.0          11                      11              9              11                9                         8  True
+     4483      India 2017-06-02 2017-07-03                      Monsoonal Rain       1.0          11                      11             10              10               10                         8  True
+     4499      India 2017-07-27 2017-08-10                      Monsoonal Rain       1.0           1                       0              0               0                2                         0 False
+     4507      India 2017-08-10 2017-08-26                      Monsoonal Rain       2.0          35                      11              5               6               32                         2  True
+     4508 Bangladesh 2017-08-10 2017-08-26                      Monsoonal Rain       1.5          46                      22             13              14               40                         9  True
+     4632    Myanmar 2018-06-15 2018-06-20                      Monsoonal Rain       1.5           0                       0              0               0                0                         0 False
+     4640      India 2018-06-25 2018-07-11                      Monsoonal Rain       1.0           0                       0              0               0                0                         0 False
+     4645   Pakistan 2018-07-03 2018-07-11                      Monsoonal Rain       1.0           0                       0              0               0                0                         0 False
+     4665      India 2018-08-02 2018-08-10                      Monsoonal Rain       1.5          11                       6              5               6                5                         5  True
+     4666    Myanmar 2018-07-15 2018-08-10                      Monsoonal Rain       1.5           0                       0              0               0                0                         0 False
+     4673      India 2018-09-01 2018-09-07                      Monsoonal Rain       1.5         159                      79             48              51               58                        24  True
+primary (masked, strict): 11 events, 124 station-events, 84 stations
+masked, lenient completeness: 11 events, 142 station-events, 93 stations
+raw 20 km rule, strict: 12 events, 226 station-events, 126 stations
+
+kept stations not geocoded to locality (hand-fix candidates): 40
+                               location precision       lat       lon  event_id  min_dist_km_masked  flood_km2_20km_masked
+                    Alipur Road-Kolkata      city 22.572646 88.363895      4282            6.514873              12.265198
+           Basaweshwara Nagar-Bengaluru      city 12.976794 77.590082      4309            8.059249               1.276121
+                      Fazalganj-Sasaram      city 24.950966 84.014873      4378            5.766634              49.020309
+            Sanjay Nagar-Chandauli City      city 25.125695 83.249460      4378           10.583817               1.637330
+                           Jori-Saharsa      city 25.833076 86.614375      4378           16.597562               3.143194
+                  Saharsa Basti-Saharsa      city 25.833076 86.614375      4378           16.597562               3.143194
+                     Vikas Nagar-Kanpur      city 26.460914 80.321759      4382            4.988335               5.191942
+                 Refugee Colony-Saharsa      city 25.833076 86.614375      4382           16.597562               4.714791
+                   ASEB Campus Guwahati      city 26.180598 91.753943      4459            1.001253               1.902729
+                  Bamunimaidan Guwahati      city 26.180598 91.753943      4459            1.001253               1.902729
+Capital Electrical Subdivision Guwahati      city 26.180598 91.753943      4459            1.001253               1.902729
+                     Datalpara Guwahati      city 26.180598 91.753943      4459            1.001253               1.902729
+                      GNB road Guwahati      city 26.180598 91.753943      4459            1.001253               1.902729
+                    Hedayetpur Guwahati      city 26.180598 91.753943      4459            1.001253               1.902729
+          Juri Par Shanti Path Guwahati      city 26.180598 91.753943      4459            1.001253               1.902729
+                   Tarun Nagar Guwahati      city 26.180598 91.753943      4459            1.001253               1.902729
+                     Gohaibari Guwahati      city 26.180598 91.753943      4483           11.342437               4.812785
+                  Inayat Nagar-Faizabad      city 26.780799 82.148659      4507            2.695358               5.734147
+                   Arvind Marg-Dehradun      city 30.325565 78.043681      4673            0.655885               4.682997
+                   Inder Vihar Dehradun      city 30.325565 78.043681      4673            0.655885               4.682997
+                        Ashiana-Lucknow      city 26.838100 80.934600      4673            1.626354               6.621541
+               Huzurpur road-Kaisarganj      city 27.163687 81.539898      4673            3.185835              52.430789
+           Agarwal Mohalla Jarwal Kasba      city 27.166941 81.540861      4673            3.428628              51.652531
+               Chowk Bazar Jarwal Kasba      city 27.166941 81.540861      4673            3.428628              51.652531
+           Sarwangi Mohalla Tikaitnagar      city 26.938253 81.566171      4673            4.652561              44.586309
+              Chunaitee Gara-Saharanpur      city 29.985680 77.504065      4673            5.601979               2.916723
+                   Kadirabag 1 Ramnagar      city 27.164583 81.360663      4673            7.938627              37.672190
+            Awas Vikas colony Barabanki      city 26.942141 81.385609      4673            9.537909              11.841093
+                    Brandawan-Barabanki      city 26.942141 81.385609      4673            9.537909              11.841093
+                 Dashehrabagh Barabanki      city 26.942141 81.385609      4673            9.537909              11.841093
+                       Paigwa-Barabanki      city 26.942141 81.385609      4673            9.537909              11.841093
+                       Paisar Barabanki      city 26.942141 81.385609      4673            9.537909              11.841093
+                       Kanjaya-Bahraich      city 27.734382 81.476540      4673            9.954591               9.162535
+                  Kanoongopura Bahraich      city 27.734382 81.476540      4673            9.954591               9.162535
+                     Nai Basti Bahraich      city 27.734382 81.476540      4673            9.954591               9.162535
+                     Nazirpura-Bahraich      city 27.734382 81.476540      4673            9.954591               9.162535
+                 Saraswati Nagar Risiya  district 27.734382 81.476540      4673            9.954591               9.162535
+                  Arjun Nagar-Ghaziabad      city 28.774997 77.458697      4673           11.329141               9.674792
+                      MG Road Ghaziabad      city 28.774997 77.458697      4673           11.329141               9.674792
+                     Raja Bazar Nanpara      city 28.032735 81.378721      4673           13.683223              30.769669

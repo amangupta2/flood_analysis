@@ -1,0 +1,23 @@
+stations: 517
+IMD: 1826 days 2014-01-01..2018-12-31; 3x3 valid cells per station: min 5, median 9
+AIFS: 1831 init dates needed, 13 missing: [datetime.date(2013, 12, 27), datetime.date(2013, 12, 28), datetime.date(2013, 12, 29), datetime.date(2013, 12, 30), datetime.date(2013, 12, 31), datetime.date(2014, 8, 3), datetime.date(2014, 8, 4), datetime.date(2014, 9, 5), datetime.date(2015, 12, 5), datetime.date(2015, 12, 6), datetime.date(2016, 7, 25), datetime.date(2016, 7, 26), datetime.date(2016, 8, 17)]
+
+panel: 311,778 station-days, 517 stations, 85.3% observed
+event-window station-days (kept events): 2,740; event days: 2,062
+stations with out_p90 == 0 (disrupt = any outage): 13 of 516
+disrupt base rate: all 0.098, event days 0.123
+
+mean rain (mm/day), JJAS observed days:
+imd_c        7.76
+aifs_l1_c    8.54
+aifs_l2_c    8.77
+aifs_l3_c    8.72
+aifs_l4_c    8.58
+aifs_l5_c    8.66
+
+correlation with IMD (centre cell), JJAS:
+aifs_l1_c    0.635
+aifs_l2_c    0.626
+aifs_l3_c    0.613
+aifs_l4_c    0.596
+aifs_l5_c    0.568

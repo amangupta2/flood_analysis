@@ -9,7 +9,7 @@ This directory holds **raw data only**: no code, build system, tests, or git rep
 - Data fields, quirks, and open questions: @docs/DATA.md
 - Research question, definitions, and deliverables: @docs/TASK.md
 
-**Five voltage CSVs are truncated** (details in DATA.md). Don't read gaps late in those periods as real outages.
+The five previously truncated voltage CSVs were re-downloaded complete on 2026-09-23 (see DATA.md).
 
 `/scratch/users/ag4680/forecasts/aifs` is attached as an extra working directory, but `.claude/settings.json` denies Edit/Write there. Treat it as read-only reference.
 

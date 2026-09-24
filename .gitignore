@@ -1,2 +1,10 @@
 *.csv
 *.nc
+data/
+logs/
+.claude/worktrees/
+redownload/guestbook.json
+outputs/report/*.aux
+outputs/report/*.log
+outputs/report/*.out
+outputs/report/*.toc
